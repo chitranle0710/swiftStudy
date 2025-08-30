@@ -29,6 +29,12 @@
 		F4BF64522E62B59500535BEE /* MoviesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF64512E62B59500535BEE /* MoviesListView.swift */; };
 		F4BF64552E62B6E800535BEE /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF64542E62B6E800535BEE /* MovieDetailView.swift */; };
 		F4BF64572E62B7DD00535BEE /* MovieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF64562E62B7DD00535BEE /* MovieCardView.swift */; };
+		F4BF645A2E62C6FA00535BEE /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF64592E62C6FA00535BEE /* MainScreen.swift */; };
+		F4BF645C2E62C7F800535BEE /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF645B2E62C7F800535BEE /* Dashboard.swift */; };
+		F4BF645E2E62C82200535BEE /* Analytic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF645D2E62C82200535BEE /* Analytic.swift */; };
+		F4BF64602E62C85D00535BEE /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF645F2E62C85D00535BEE /* Room.swift */; };
+		F4BF64622E62C8A100535BEE /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF64612E62C8A100535BEE /* Setting.swift */; };
+		F4BF64672E62DBC400535BEE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF64662E62DBC400535BEE /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +79,12 @@
 		F4BF64512E62B59500535BEE /* MoviesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesListView.swift; sourceTree = "<group>"; };
 		F4BF64542E62B6E800535BEE /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 		F4BF64562E62B7DD00535BEE /* MovieCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardView.swift; sourceTree = "<group>"; };
+		F4BF64592E62C6FA00535BEE /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		F4BF645B2E62C7F800535BEE /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		F4BF645D2E62C82200535BEE /* Analytic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytic.swift; sourceTree = "<group>"; };
+		F4BF645F2E62C85D00535BEE /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		F4BF64612E62C8A100535BEE /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		F4BF64662E62DBC400535BEE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,7 @@
 		F4BF63FD2E62AC8B00535BEE /* SelfStudy */ = {
 			isa = PBXGroup;
 			children = (
+				F4BF64582E62C6F000535BEE /* UI */,
 				F4BF64392E62AE3000535BEE /* Feature */,
 				F4BF642E2E62ACD900535BEE /* Core */,
 				F4BF642B2E62ACB500535BEE /* App */,
@@ -193,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				F4BF64372E62AD6C00535BEE /* Constants.swift */,
+				F4BF64662E62DBC400535BEE /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -297,6 +311,26 @@
 				F4BF64562E62B7DD00535BEE /* MovieCardView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F4BF64582E62C6F000535BEE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF64632E62C94200535BEE /* Custom */,
+				F4BF64592E62C6FA00535BEE /* MainScreen.swift */,
+				F4BF645B2E62C7F800535BEE /* Dashboard.swift */,
+				F4BF645D2E62C82200535BEE /* Analytic.swift */,
+				F4BF645F2E62C85D00535BEE /* Room.swift */,
+				F4BF64612E62C8A100535BEE /* Setting.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		F4BF64632E62C94200535BEE /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -439,15 +473,21 @@
 				F4BF64332E62AD3200535BEE /* APIEndpoints.swift in Sources */,
 				F4BF64522E62B59500535BEE /* MoviesListView.swift in Sources */,
 				F4BF64572E62B7DD00535BEE /* MovieCardView.swift in Sources */,
+				F4BF645C2E62C7F800535BEE /* Dashboard.swift in Sources */,
 				F4BF642D2E62ACC600535BEE /* MovieExplorerApp.swift in Sources */,
 				F4BF64432E62B11200535BEE /* Movie.swift in Sources */,
 				F4BF644B2E62B1AA00535BEE /* MovieRepository.swift in Sources */,
+				F4BF645A2E62C6FA00535BEE /* MainScreen.swift in Sources */,
+				F4BF64672E62DBC400535BEE /* Extensions.swift in Sources */,
 				F4BF64012E62AC8B00535BEE /* ContentView.swift in Sources */,
 				F4BF64352E62AD5B00535BEE /* NetworkError.swift in Sources */,
+				F4BF64622E62C8A100535BEE /* Setting.swift in Sources */,
 				F4BF64382E62AD6C00535BEE /* Constants.swift in Sources */,
 				F4BF63FF2E62AC8B00535BEE /* SelfStudyApp.swift in Sources */,
 				F4BF644F2E62B3BF00535BEE /* MovieDetailsViewModel.swift in Sources */,
+				F4BF64602E62C85D00535BEE /* Room.swift in Sources */,
 				F4BF64462E62B14600535BEE /* MovieDetail.swift in Sources */,
+				F4BF645E2E62C82200535BEE /* Analytic.swift in Sources */,
 				F4BF64312E62ACF100535BEE /* APIClient.swift in Sources */,
 				F4BF643C2E62AE5500535BEE /* FavoritesManager.swift in Sources */,
 				F4BF644D2E62B25300535BEE /* MovieViewModel.swift in Sources */,
